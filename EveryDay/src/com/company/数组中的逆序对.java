@@ -1,6 +1,6 @@
 package com.company;
 
-public class Day1 {
+public class 数组中的逆序对 {
     public int InversePairs(int [] array) {
         return (new MeSo()).GetInvNum(array);
         //return (new Solu()).InversePairs(array);
