@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7c091a4d-dc22-42fb-8fcb-d67aea759f99" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1QjahsfKASXUwPD0z2ChUo46ceN" />
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.S1">
+    <configuration name="MS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithm.MS" />
+      <module name="Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Algorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main3 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Main3" />
+      <module name="Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Main5" />
+      <module name="Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithm.QS" />
+      <module name="Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Algorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="S1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithm.S1" />
+      <module name="Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Algorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main3 (1)" />
+      <item itemvalue="Application.Main5" />
+      <item itemvalue="Application.QS" />
+      <item itemvalue="Application.MS" />
+      <item itemvalue="Application.S1" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.S1" />
+        <item itemvalue="Application.MS" />
+        <item itemvalue="Application.QS" />
+        <item itemvalue="Application.Main5" />
+        <item itemvalue="Application.Main3 (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7c091a4d-dc22-42fb-8fcb-d67aea759f99" name="Default Changelist" comment="" />
+      <created>1568286582214</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1568286582214</updated>
+      <workItem from="1568286587032" duration="1968000" />
+      <workItem from="1568647529926" duration="1621000" />
+      <workItem from="1569392113843" duration="5002000" />
+      <workItem from="1569420198132" duration="3020000" />
+      <workItem from="1569459823987" duration="7651000" />
+      <workItem from="1569504494494" duration="713000" />
+      <workItem from="1569737036835" duration="6681000" />
+      <workItem from="1569743825002" duration="2588000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
