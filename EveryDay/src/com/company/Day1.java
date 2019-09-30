@@ -1,4 +1,6 @@
-public class Solution {
+package com.company;
+
+public class Day1 {
     public int InversePairs(int [] array) {
         return (new MeSo()).GetInvNum(array);
         //return (new Solu()).InversePairs(array);
