@@ -1,4 +1,4 @@
-public class Solution {
+class Solution {
     public int InversePairs(int [] array) {
         return (new MeSo()).GetInvNum(array);
     }
