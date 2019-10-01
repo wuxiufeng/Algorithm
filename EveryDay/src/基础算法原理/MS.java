@@ -77,7 +77,7 @@ class MeSo
         if(low == high)
             return 0;
         int mid = ((high - low) >> 1) + low;
-        return (MergeSort(arr,low,mid)%1000000007 + MergeSort(arr,mid+1,high)%1000000007 + Merge(arr, low, mid, high))%1000000007;
+        return (MergeSort(arr,low,mid) + MergeSort(arr,mid+1,high) + Merge(arr, low, mid, high))%1000000007;
     }
     /**
      * @title Merge
