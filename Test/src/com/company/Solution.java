@@ -8,6 +8,15 @@ package com.company;
  * 思路：类归并排序，在merge的时候，一组一组的获取逆序对数即可
  */
 public class Solution {
+    /**
+     * @title InversePairs
+     * @description 
+     * @author Mr. jun
+     * @param [array]
+     * @updateTime 2019/10/1 1:28
+     * @return int
+     * @throws
+     */
     public int InversePairs(int [] array) {
         if (array == null || array.length < 2) {
             return 0;
@@ -15,7 +24,17 @@ public class Solution {
         int res = InversePairsCore(array, 0, array.length - 1);
         return  res % 1000000007;
     }
-
+    /**
+     * @updateTime 2019/10/1 1:39
+     * @title InversePairsCore
+     * @description 
+     * @author Mr. jun
+ * @param arr
+ * @param lo
+ * @param hi
+     * @return int
+     * @throws
+     */
     private int InversePairsCore(int[] arr, int lo, int hi) {
         if (lo == hi) {
             return 0;

@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7c091a4d-dc22-42fb-8fcb-d67aea759f99" name="Default Changelist" comment="" />
+    <list default="true" id="7c091a4d-dc22-42fb-8fcb-d67aea759f99" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../EveryDay/src/剑指Offer/二维数组中的查找.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EveryDay/src/剑指Offer/从尾到头打印链表.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EveryDay/src/剑指Offer/替换空格.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EveryDay/src/基础算法原理/MS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EveryDay/src/基础算法原理/QS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EveryDay/out/production/EveryDay/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../EveryDay/out/production/EveryDay/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EveryDay/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EveryDay/src/com/company/Variant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EveryDay/src/com/company/二维数组中的查找.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EveryDay/src/com/company/数组中的逆序对.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EveryDay/src/com/company/替换空格.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithm/S1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithm/S1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Solution.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +42,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -145,6 +160,8 @@
       <workItem from="1569811390820" duration="7000" />
       <workItem from="1569811963613" duration="9000" />
       <workItem from="1569821135847" duration="63000" />
+      <workItem from="1569852869208" duration="3024000" />
+      <workItem from="1569863502000" duration="5807000" />
     </task>
     <servers />
   </component>

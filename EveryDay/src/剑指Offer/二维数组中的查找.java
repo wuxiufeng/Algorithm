@@ -1,6 +1,23 @@
-package com.company;
-
+package 剑指Offer;
+/**
+ * @program: EveryDay
+ * @ClassName 二维数组中的查找.java
+ * @description: TODO
+ * @author: Mr. jun
+ * @version: 1.0.0
+ * @create: 2019-10-01 12:23
+ */
 public class 二维数组中的查找 {
+    /**
+     * @title Find
+     * @description 在二维数组中查找特定值
+     * @author Mr. jun
+     * @param target 查找目标值
+     * @param array 查找矩阵
+     * @return boolean
+     * @throws
+     * @updateTime 2019/10/1 9:11
+     */
     public boolean Find(int target, int [][] array) {
         if(array[0].length==0)
             return false;
