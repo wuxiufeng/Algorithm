@@ -2,19 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c091a4d-dc22-42fb-8fcb-d67aea759f99" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../EveryDay/src/剑指Offer/重建二叉树.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EveryDay/out/production/EveryDay/MeSo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EveryDay/out/production/EveryDay/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EveryDay/out/production/EveryDay/com/company/MS.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EveryDay/out/production/EveryDay/com/company/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EveryDay/out/production/EveryDay/com/company/MeSo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EveryDay/out/production/EveryDay/com/company/QS.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EveryDay/out/production/EveryDay/com/company/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EveryDay/out/production/EveryDay/com/company/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EveryDay/out/production/EveryDay/com/company/Variant.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EveryDay/out/production/EveryDay/com/company/二维数组中的查找.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EveryDay/out/production/EveryDay/com/company/替换空格.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EveryDay/src/基础算法原理/MS.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EveryDay/src/基础算法原理/MS.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -161,7 +148,8 @@
       <workItem from="1569811963613" duration="9000" />
       <workItem from="1569821135847" duration="63000" />
       <workItem from="1569852869208" duration="3024000" />
-      <workItem from="1569863502000" duration="5807000" />
+      <workItem from="1569863502000" duration="5808000" />
+      <workItem from="1569974265261" duration="20000" />
     </task>
     <servers />
   </component>
