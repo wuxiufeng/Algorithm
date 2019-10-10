@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c091a4d-dc22-42fb-8fcb-d67aea759f99" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/HW1/Main17.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HW1/Main172.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW1/Main17.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW1/Main17.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,33 +47,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main12">
-    <configuration name="Main01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CT1.Main01" />
-      <module name="Test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CT1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CT1.Main02" />
-      <module name="Test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CT1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Main172">
     <configuration name="Main12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HW1.Main12" />
       <module name="Test" />
@@ -112,20 +87,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main17" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HW1.Main17" />
+      <module name="Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HW1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main172" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HW1.Main172" />
+      <module name="Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HW1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Main01" />
-      <item itemvalue="Application.Main02" />
       <item itemvalue="Application.Main15" />
       <item itemvalue="Application.Main16" />
       <item itemvalue="Application.Main12" />
+      <item itemvalue="Application.Main17" />
+      <item itemvalue="Application.Main172" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main172" />
+        <item itemvalue="Application.Main17" />
         <item itemvalue="Application.Main12" />
         <item itemvalue="Application.Main15" />
         <item itemvalue="Application.Main16" />
-        <item itemvalue="Application.Main02" />
-        <item itemvalue="Application.Main01" />
       </list>
     </recent_temporary>
   </component>
@@ -157,7 +158,7 @@
       <workItem from="1570682633544" duration="2801000" />
       <workItem from="1570702604827" duration="2211000" />
       <workItem from="1570709334562" duration="1348000" />
-      <workItem from="1570719918600" duration="1802000" />
+      <workItem from="1570719918600" duration="5976000" />
     </task>
     <servers />
   </component>
