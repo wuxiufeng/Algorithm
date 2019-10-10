@@ -2,7 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c091a4d-dc22-42fb-8fcb-d67aea759f99" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../EveryDay/src/剑指Offer/变态跳台阶.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EveryDay/src/剑指Offer/旋转数组的最小数字.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EveryDay/src/剑指Offer/矩形覆盖.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CT1/Main01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CT1/Main02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HW1/Main11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HW1/Main12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HW1/Main13.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HW1/Main14.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HW1/Main15.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HW1/Main16.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EveryDay/out/production/EveryDay/基础算法原理/QS.class" beforeDir="false" afterPath="$PROJECT_DIR$/../EveryDay/out/production/EveryDay/基础算法原理/QS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EveryDay/src/基础算法原理/QS.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EveryDay/src/基础算法原理/QS.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test/Algorithm/MeSo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test/Algorithm/MeSo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test/com/company/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test/com/company/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithm/Day.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,7 +37,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1QjahsfKASXUwPD0z2ChUo46ceN" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
@@ -43,13 +61,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.S1">
-    <configuration name="MS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algorithm.MS" />
+  <component name="RunManager" selected="Application.Main15">
+    <configuration name="Main01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CT1.Main01" />
       <module name="Test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Algorithm.*" />
+          <option name="PATTERN" value="CT1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -57,12 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main3 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Main3" />
+    <configuration name="Main02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CT1.Main02" />
       <module name="Test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.*" />
+          <option name="PATTERN" value="CT1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Main5" />
+    <configuration name="Main14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HW1.Main14" />
       <module name="Test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.*" />
+          <option name="PATTERN" value="HW1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algorithm.QS" />
+    <configuration name="Main15" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HW1.Main15" />
       <module name="Test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Algorithm.*" />
+          <option name="PATTERN" value="HW1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="S1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algorithm.S1" />
+    <configuration name="Main16" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HW1.Main16" />
       <module name="Test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Algorithm.*" />
+          <option name="PATTERN" value="HW1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,19 +128,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main3 (1)" />
-      <item itemvalue="Application.Main5" />
-      <item itemvalue="Application.QS" />
-      <item itemvalue="Application.MS" />
-      <item itemvalue="Application.S1" />
+      <item itemvalue="Application.Main14" />
+      <item itemvalue="Application.Main01" />
+      <item itemvalue="Application.Main02" />
+      <item itemvalue="Application.Main15" />
+      <item itemvalue="Application.Main16" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.S1" />
-        <item itemvalue="Application.MS" />
-        <item itemvalue="Application.QS" />
-        <item itemvalue="Application.Main5" />
-        <item itemvalue="Application.Main3 (1)" />
+        <item itemvalue="Application.Main15" />
+        <item itemvalue="Application.Main16" />
+        <item itemvalue="Application.Main02" />
+        <item itemvalue="Application.Main01" />
+        <item itemvalue="Application.Main14" />
       </list>
     </recent_temporary>
   </component>
@@ -150,6 +168,10 @@
       <workItem from="1569852869208" duration="3024000" />
       <workItem from="1569863502000" duration="5808000" />
       <workItem from="1569974265261" duration="20000" />
+      <workItem from="1570669524541" duration="7849000" />
+      <workItem from="1570682633544" duration="2801000" />
+      <workItem from="1570702604827" duration="2211000" />
+      <workItem from="1570709334562" duration="534000" />
     </task>
     <servers />
   </component>

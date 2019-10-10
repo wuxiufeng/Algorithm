@@ -9,7 +9,8 @@ package 基础算法原理;
  */
 public class QS {
     public static void main(String[] args){
-        int[] input = randomCommon(-900,900,20);
+        //int[] input = randomCommon(-900,900,20);
+        int[] input = {32,2,8,34,13,10,5,16,29,31,38,34,28,1,15,12,41,42,11,37,33,4,17,14,33,35,9,43,36};
         QuickSort(input, 0, input.length - 1);
         for (int i = 0; i < input.length; i++) {
             System.out.print(input[i] + " ");
