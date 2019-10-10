@@ -2,23 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c091a4d-dc22-42fb-8fcb-d67aea759f99" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../EveryDay/src/剑指Offer/变态跳台阶.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EveryDay/src/剑指Offer/旋转数组的最小数字.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EveryDay/src/剑指Offer/矩形覆盖.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CT1/Main01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CT1/Main02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HW1/Main11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HW1/Main12.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HW1/Main13.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HW1/Main14.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HW1/Main15.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HW1/Main16.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EveryDay/out/production/EveryDay/基础算法原理/QS.class" beforeDir="false" afterPath="$PROJECT_DIR$/../EveryDay/out/production/EveryDay/基础算法原理/QS.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EveryDay/src/基础算法原理/QS.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EveryDay/src/基础算法原理/QS.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/Algorithm/MeSo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test/Algorithm/MeSo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/com/company/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test/com/company/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithm/Day.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test/HW1/Main12.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test/HW1/Main12.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW1/Main12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW1/Main12.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +47,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main15">
+  <component name="RunManager" selected="Application.Main12">
     <configuration name="Main01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CT1.Main01" />
       <module name="Test" />
@@ -88,8 +74,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HW1.Main14" />
+    <configuration name="Main12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HW1.Main12" />
       <module name="Test" />
       <extension name="coverage">
         <pattern>
@@ -128,19 +114,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main14" />
       <item itemvalue="Application.Main01" />
       <item itemvalue="Application.Main02" />
       <item itemvalue="Application.Main15" />
       <item itemvalue="Application.Main16" />
+      <item itemvalue="Application.Main12" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main12" />
         <item itemvalue="Application.Main15" />
         <item itemvalue="Application.Main16" />
         <item itemvalue="Application.Main02" />
         <item itemvalue="Application.Main01" />
-        <item itemvalue="Application.Main14" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +157,8 @@
       <workItem from="1570669524541" duration="7849000" />
       <workItem from="1570682633544" duration="2801000" />
       <workItem from="1570702604827" duration="2211000" />
-      <workItem from="1570709334562" duration="534000" />
+      <workItem from="1570709334562" duration="1348000" />
+      <workItem from="1570719918600" duration="371000" />
     </task>
     <servers />
   </component>
