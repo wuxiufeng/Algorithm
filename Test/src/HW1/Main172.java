@@ -45,16 +45,10 @@ public class Main172 {
         if (arr == null || arr.length == 0) {
             return 0;
         }
-        int res = 0,maxV,minV;
+        int res = 0;
         for(int i=0;i<arr.length-1;i++) {
-            maxV = arr[i];
-            minV = arr[i];
             for (int j = i + 1; j < arr.length; j++) {
-                if(arr[j]>maxV)
-                    maxV=arr[j];
-                if(arr[j]<minV)
-                    minV=arr[j];
-                if(maxV-minV>num){
+                if(Math.abs(arr[i]-arr[j])>num){
                     res+=arr.length-j;
                     break;
                 }
