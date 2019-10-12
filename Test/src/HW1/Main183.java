@@ -29,9 +29,13 @@ public class Main183 {
     }
 
     public static void CloseToVal(int[] arr) {
-        boolean[][] dp = new boolean[arr.length/2][Sum(arr)/2];
+        boolean[][] dp = new boolean[arr.length/2+1][Sum(arr)/2+1];
+        for(int i=0;i<arr.length/2+1;i++)
+            for(int j=0;j<Sum(arr)/2+1;j++)
+                dp[i][j] = false;
+        dp[0][0] = true;
         for(int i=0;i<arr.length;i++)
-            for(int j=Math.min(i,arr.length/2);j>=1;j--)
+            for(int j=Math.min(i+1,arr.length/2);j>=1;j--)
                 for(int s = 1;s<=Sum(arr)/2;s++)
                     if(s>=arr[i]&&dp[j-1][s-arr[i]])
                         dp[j][s] = true;
