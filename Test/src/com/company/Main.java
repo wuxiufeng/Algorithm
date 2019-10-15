@@ -2,6 +2,8 @@ package com.company;
 
 //import java.util.Scanner;
 
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
         // write your code here
@@ -10,6 +12,13 @@ public class Main {
         for(int i=0;i<input.length;i++)
             System.out.print(input[i]);
         System.out.println();
+        int[] ne = Arrays.copyOf(input,input.length);
+        input[0] = 9090;
+        for(int i=0;i<ne.length;i++)
+            System.out.print(ne[i]);
+        System.out.println();
+        for(int i=0;i<input.length;i++)
+            System.out.print(input[i]);
         Solution so = new Solution();
         System.out.println("InverseNum:"+so.InversePairs(input));
     }

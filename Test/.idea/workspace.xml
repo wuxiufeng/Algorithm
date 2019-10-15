@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c091a4d-dc22-42fb-8fcb-d67aea759f99" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/HW1/Main19.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HW1/Main7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HW1/Main_10.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/HW1/Main183.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test/HW1/Main183.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HW1/Main183.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW1/Main183.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,7 +36,14 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/HW1" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\23832\IdeaProjects\Test\src\HW1" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -47,39 +57,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main183">
-    <configuration name="Main17" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HW1.Main17" />
+  <component name="RunManager" selected="Application.Main7">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
       <module name="Test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HW1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main172" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HW1.Main172" />
-      <module name="Test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="HW1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main18" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HW1.Main18" />
-      <module name="Test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="HW1.*" />
+          <option name="PATTERN" value="com.company.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,20 +97,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main19" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HW1.Main19" />
+      <module name="Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HW1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HW1.Main7" />
+      <module name="Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HW1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Main17" />
-      <item itemvalue="Application.Main172" />
-      <item itemvalue="Application.Main18" />
       <item itemvalue="Application.Main182" />
       <item itemvalue="Application.Main183" />
+      <item itemvalue="Application.Main19" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Main7" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main7" />
+        <item itemvalue="Application.Main19" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main183" />
         <item itemvalue="Application.Main182" />
-        <item itemvalue="Application.Main172" />
-        <item itemvalue="Application.Main17" />
-        <item itemvalue="Application.Main18" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +171,12 @@
       <workItem from="1570719918600" duration="6978000" />
       <workItem from="1570792271071" duration="10393000" />
       <workItem from="1570843848508" duration="1963000" />
-      <workItem from="1570866620374" duration="3458000" />
+      <workItem from="1570866620374" duration="4064000" />
+      <workItem from="1571021249590" duration="1797000" />
+      <workItem from="1571032990131" duration="546000" />
+      <workItem from="1571051668963" duration="31614000" />
+      <workItem from="1571112989837" duration="1798000" />
+      <workItem from="1571118906180" duration="6404000" />
     </task>
     <servers />
   </component>
