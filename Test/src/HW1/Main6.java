@@ -11,7 +11,7 @@ import java.util.Scanner;
  * @version: 1.0.0
  * @create: 2019-10-10 10:13
  */
-public class Main14 {
+public class Main6 {
     public static void main(String[] args){
         Scanner cin = new Scanner(System.in);
         int caseNum = Integer.parseInt(cin.nextLine().trim());

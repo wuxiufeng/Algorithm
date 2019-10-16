@@ -26,11 +26,8 @@ public class Main7 {
                     GetStringResu(GetSetNode(input, lis, lds, j, MaxLen), "", 0,-1, setResult);
             List<String> listResult = new LinkedList<String>(setResult);
             Collections.sort(listResult);
-
-            if (IsValid(listResult.get(0)))
-                System.out.println(listResult.get(0));
-            for (int j = 1; j < listResult.size(); j++)
-                if (!listResult.get(j - 1).equals(listResult.get(j)) && IsValid(listResult.get(j)))
+            for (int j = 0; j < listResult.size(); j++)
+                if (IsValid(listResult.get(j)))
                     System.out.println(listResult.get(j));
         }
 

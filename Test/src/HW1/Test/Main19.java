@@ -1,4 +1,4 @@
-package HW1;
+package HW1.Test;
 
 import java.util.*;
 
@@ -34,14 +34,11 @@ public class Main19 {
             Set<String> setResult = new HashSet<String>();
             for (int j = 0; j < maxI.length; j++)
                 if (maxI[j] == MaxLen)
-                    GetStringResu(GetSetNode(input, lis, lds, j, MaxLen), "", 0,-1, setResult);
+                    GetStringResu(GetSetNode(input, lis, lds, j, MaxLen), "", 0, -1, setResult);
             List<String> listResult = new LinkedList<String>(setResult);
             Collections.sort(listResult);
-
-            if (IsValid(listResult.get(0)))
-                System.out.println(listResult.get(0));
-            for (int j = 1; j < listResult.size(); j++)
-                if (!listResult.get(j - 1).equals(listResult.get(j)) && IsValid(listResult.get(j)))
+            for (int j = 0; j < listResult.size(); j++)
+                if (IsValid(listResult.get(j)))
                     System.out.println(listResult.get(j));
         }
 
@@ -68,15 +65,15 @@ public class Main19 {
     private static void GetStringResu(List<String>[] listInput, String curStr, int curIndex, int preIndex, Set<String> result) {
         for (int i = curIndex; i < listInput.length; i++) {
             for (int j = 1; j < listInput[i].size(); j++) {
-                if(Integer.parseInt(listInput[i].get(j).split("/")[1])>preIndex)
-                    GetStringResu(listInput, curStr + " " + listInput[i].get(j).split("/")[0], i + 1,Integer.parseInt(listInput[i].get(j).split("/")[1]), result);
+                if (Integer.parseInt(listInput[i].get(j).split("/")[1]) > preIndex)
+                    GetStringResu(listInput, curStr + " " + listInput[i].get(j).split("/")[0], i + 1, Integer.parseInt(listInput[i].get(j).split("/")[1]), result);
             }
-            if(Integer.parseInt(listInput[i].get(0).split("/")[1])<=preIndex)
+            if (Integer.parseInt(listInput[i].get(0).split("/")[1]) <= preIndex)
                 continue;
             curStr = curStr + " " + listInput[i].get(0).split("/")[0];
             preIndex = Integer.parseInt(listInput[i].get(0).split("/")[1]);
         }
-        if(curStr.trim().split(" ").length==listInput.length)
+        if (curStr.trim().split(" ").length == listInput.length)
             result.add(curStr.trim());
     }
 
@@ -85,9 +82,9 @@ public class Main19 {
         for (int i = 0; i < outList.length; i++)
             outList[i] = new LinkedList<>();
         for (int i = 0; i < slice; i++)
-            outList[lis[i] - 1].add(input[i]+"/"+i);
+            outList[lis[i] - 1].add(input[i] + "/" + i);
         for (int i = slice; i < input.length; i++)
-            outList[strLen - lds[i]].add(input[i]+"/"+i);
+            outList[strLen - lds[i]].add(input[i] + "/" + i);
 
 //        for(int i=0;i<result.length;i++) {
 //            System.out.print(i + ": ");

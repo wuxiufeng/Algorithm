@@ -10,7 +10,7 @@ import java.util.Scanner;
  * @version: 1.0.0
  * @create: 2019-10-11 23:07
  */
-public class Main183 {
+public class Main8 {
     public static void main(String[] args) {
         Scanner cin = new Scanner(System.in);
         int caseNum = Integer.parseInt(cin.nextLine().trim());

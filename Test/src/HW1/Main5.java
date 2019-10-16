@@ -11,7 +11,7 @@ import java.util.Scanner;
  * @version: 1.0.0
  * @create: 2019-10-10 09:49
  */
-public class Main13 {
+public class Main5 {
     public static void main(String[] args){
         Scanner cin = new Scanner(System.in);
         int[] input,subInput;
@@ -42,4 +42,3 @@ public class Main13 {
         return output;
     }
 }
-

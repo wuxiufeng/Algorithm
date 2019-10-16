@@ -13,7 +13,7 @@ import java.util.Deque;
 import java.util.LinkedList;
 import java.util.Scanner;
 
-public class Main172 {
+public class Main1 {
 
     public static void main(String[] args) {
         Scanner cin = new Scanner(System.in);
@@ -46,13 +46,36 @@ public class Main172 {
             return 0;
         }
         int res = 0;
-        for(int i=0;i<arr.length-1;i++) {
-            for (int j = i + 1; j < arr.length; j++) {
-                if(Math.abs(arr[i]-arr[j])>num){
-                    res+=arr.length-j;
+
+        int i = 0;
+        int j = 0;
+        Deque<Integer> qmax = new LinkedList<>();
+        Deque<Integer> qmin = new LinkedList<>();
+        while (i < arr.length-1) {
+            while (j < arr.length) {
+                //维护窗口最大值
+                while (!qmax.isEmpty() && arr[qmax.peekLast()] <= arr[j]) {
+                    qmax.pollLast();
+                }
+                qmax.addLast(j);
+                //维护窗口最小值
+                while (!qmin.isEmpty() && arr[qmin.peekLast()] >= arr[j]) {
+                    qmin.pollLast();
+                }
+                qmin.addLast(j);
+                if (arr[qmax.peekFirst()] - arr[qmin.peekFirst()] > num) {
                     break;
                 }
+                j++;
             }
+            res+=arr.length-j;
+            if (qmax.peekFirst() == i) {
+                qmax.poll();
+            }
+            if (qmin.peekFirst() == i) {
+                qmin.poll();
+            }
+            i++;
         }
         return res;
     }

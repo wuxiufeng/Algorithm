@@ -1,33 +1,34 @@
-package HW1;
+package HW1.Test;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 /**
  * @program: Test
- * @ClassName Main.java
+ * @ClassName Main14.java
  * @description: TODO
  * @author: Mr. jun
  * @version: 1.0.0
- * @create: 2019-10-10 09:10
+ * @create: 2019-10-10 10:13
  */
-public class Main11 {
+public class Main14 {
     public static void main(String[] args){
         Scanner cin = new Scanner(System.in);
-        int[] input;
-        int windSize;
-        int result;
         int caseNum = Integer.parseInt(cin.nextLine().trim());
+        int[] input;
+        int result,target;
         for(int i=0;i<caseNum;i++){
             input = StringarrToIntarr(cin.nextLine());
-            windSize = Integer.parseInt(cin.nextLine().trim());
+            Arrays.sort(input);
+            target = Integer.parseInt(cin.nextLine().trim());
             result = 0;
-            for(int k=0;k<=input.length-windSize;k++){
-                int currMax = input[k];
-                for(int l=1;l<windSize;l++)
-                    if(input[k+l]>currMax)
-                        currMax = input[k+l];
-                result+=currMax;
-            }
+            for(int j=0;j<input.length-1;j++)
+                for(int k=j+1;k<input.length;k++){
+                    if(input[j]+input[k]==target)
+                        result++;
+                    else if(input[j]+input[k]>target)
+                        break;
+                }
             System.out.println(result);
         }
     }

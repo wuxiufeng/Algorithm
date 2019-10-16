@@ -1,4 +1,4 @@
-package HW1;
+package HW1.Test;
 
 import java.util.Scanner;
 import java.util.Stack;
