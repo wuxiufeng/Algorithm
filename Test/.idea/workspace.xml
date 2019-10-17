@@ -2,32 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c091a4d-dc22-42fb-8fcb-d67aea759f99" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/HW1/Main1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HW1/Main2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HW1/Main3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HW1/Main4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HW1/Main5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HW1/Main6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HW1/Main8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HW2/Main1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/HW1/Main19$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test/HW1/Main19$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/HW1/Main19$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test/HW1/Main19$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/HW1/Main19.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test/HW1/Main19.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HW1/Main11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW1/Test/Main11.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HW1/Main12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW1/Test/Main12.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HW1/Main13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW1/Test/Main13.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HW1/Main14.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW1/Test/Main14.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HW1/Main15.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW1/Test/Main15.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HW1/Main16.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW1/Test/Main16.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HW1/Main17.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW1/Test/Main17.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HW1/Main172.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW1/Test/Main172.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HW1/Main173.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW1/Test/Main173.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HW1/Main18.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW1/Test/Main18.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HW1/Main182.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW1/Test/Main182.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HW1/Main183.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW1/Test/Main183.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HW1/Main19.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW1/Test/Main19.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HW1/Main7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW1/Main7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HW1/Main_10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW1/Test/Main_10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test/HW1/Main11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test/HW1/Main12$Action.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test/HW1/Main12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test/HW1/Main13.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test/HW1/Main14.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test/HW1/Main15.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test/HW1/Main16.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test/HW1/Main17.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test/HW1/Main172.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test/HW1/Main18.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test/HW1/Main182.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test/HW1/Main183.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test/HW1/Main19$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test/HW1/Main19$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test/HW1/Main19.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test/HW1/Main7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test/HW1/Main7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test/HW1/Main_10$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test/HW1/Main_10$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test/HW1/Main_10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW1/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW1/Main2" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +76,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main19">
+  <component name="RunManager" selected="Application.Main1">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
       <module name="Test" />
@@ -94,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main182" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HW1.Main182" />
+    <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HW2.Main1" />
       <module name="Test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HW1.*" />
+          <option name="PATTERN" value="HW2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,19 +143,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main182" />
       <item itemvalue="Application.Main183" />
       <item itemvalue="Application.Main19" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main7" />
+      <item itemvalue="Application.Main1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main1" />
         <item itemvalue="Application.Main19" />
         <item itemvalue="Application.Main7" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main183" />
-        <item itemvalue="Application.Main182" />
       </list>
     </recent_temporary>
   </component>
@@ -202,7 +198,9 @@
       <workItem from="1571118906180" duration="6547000" />
       <workItem from="1571125622554" duration="88000" />
       <workItem from="1571193278862" duration="1073000" />
-      <workItem from="1571230449752" duration="799000" />
+      <workItem from="1571230449752" duration="1424000" />
+      <workItem from="1571234127430" duration="619000" />
+      <workItem from="1571274169941" duration="732000" />
     </task>
     <servers />
   </component>
