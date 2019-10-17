@@ -3,7 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="7c091a4d-dc22-42fb-8fcb-d67aea759f99" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/HW2/Main3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test/HW2/Main3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW2/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CT2/Main1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW2/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CT2/Main2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW2/Main2.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/CT2/Main2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW2/Main3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CT2/Main3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW2/Test/Main21.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CT2/Test/Main21.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW2/Test/Main3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CT2/Test/Main3.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,14 +39,15 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/HW2" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\23832\IdeaProjects\Test\src\HW2" />
+      <recent name="C:\Users\23832\IdeaProjects\Test\src\HW1" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\23832\IdeaProjects\Test\src\HW1\Test" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\23832\IdeaProjects\Test\src\HW1" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -58,11 +64,11 @@
   </component>
   <component name="RunManager" selected="Application.Main2">
     <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HW2.Main1" />
+      <option name="MAIN_CLASS_NAME" value="CT2.Main1" />
       <module name="Test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HW2.Test.*" />
+          <option name="PATTERN" value="CT2.Test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,11 +77,11 @@
       </method>
     </configuration>
     <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HW2.Main2" />
+      <option name="MAIN_CLASS_NAME" value="CT2.Main2" />
       <module name="Test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HW2.Test.*" />
+          <option name="PATTERN" value="CT2.Test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,24 +90,11 @@
       </method>
     </configuration>
     <configuration name="Main21" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HW2.Test.Main21" />
+      <option name="MAIN_CLASS_NAME" value="CT2.Test.Main21" />
       <module name="Test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HW2.Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main3 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HW2.Test.Main3" />
-      <module name="Test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="HW2.Test.*" />
+          <option name="PATTERN" value="CT2.Test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,11 +103,24 @@
       </method>
     </configuration>
     <configuration name="Main3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HW2.Main3" />
+      <option name="MAIN_CLASS_NAME" value="CT2.Test.Main3" />
       <module name="Test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HW2.*" />
+          <option name="PATTERN" value="CT2.Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CT2.Main3" />
+      <module name="Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CT2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,12 +133,10 @@
       <item itemvalue="Application.Main2" />
       <item itemvalue="Application.Main21" />
       <item itemvalue="Application.Main3" />
-      <item itemvalue="Application.Main3 (1)" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main2" />
-        <item itemvalue="Application.Main3 (1)" />
         <item itemvalue="Application.Main3" />
         <item itemvalue="Application.Main21" />
         <item itemvalue="Application.Main1" />
@@ -182,6 +186,9 @@
       <workItem from="1571234127430" duration="619000" />
       <workItem from="1571274169941" duration="4375000" />
       <workItem from="1571279290447" duration="1262000" />
+      <workItem from="1571282383528" duration="342000" />
+      <workItem from="1571287801611" duration="856000" />
+      <workItem from="1571299101318" duration="18000" />
     </task>
     <servers />
   </component>

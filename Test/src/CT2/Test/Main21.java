@@ -1,4 +1,4 @@
-package HW2;
+package CT2.Test;
 
 import java.util.*;
 
@@ -18,7 +18,7 @@ class Point
  * @version: 1.0.0
  * @create: 2019-10-11 00:08
  */
-public class Main2 {
+public class Main21 {
 
     // To find orientation of ordered triplet (p, q, r).
     // The function returns following values
@@ -103,11 +103,13 @@ public class Main2 {
         if(hull.size()==0)
             System.out.println(-1);
         else{
-            List<Point> resultList = new LinkedList<Point>(hull);
-            Collections.sort(resultList,(P1,P2)->P1.x==P2.x?P1.y-P2.y:P1.x-P2.x);
-            System.out.print(resultList.get(0).x+" "+resultList.get(0).y);
+            List<String> resultList = new LinkedList<String>();
+            for(Point point : hull)
+                resultList.add(point.x+" "+point.y);
+            Collections.sort(resultList);
+            System.out.print(resultList.get(0));
             for(int i=1;i<resultList.size();i++)
-                System.out.print(", "+resultList.get(i).x+" "+resultList.get(i).y);
+                System.out.print(", "+resultList.get(i));
             System.out.println();
         }
     }

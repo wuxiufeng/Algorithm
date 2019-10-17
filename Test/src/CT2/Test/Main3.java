@@ -1,6 +1,5 @@
-package HW2.Test;// Java Program for painter's partition problem
+package CT2.Test;// Java Program for painter's partition problem
 import java.util.*;
-import java.io.*;
 
 public class Main3 {
     // return the maximum element from the array

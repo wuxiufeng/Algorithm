@@ -1,4 +1,4 @@
-package HW2;
+package CT2;
 
 /**
  * @program: Test
@@ -9,8 +9,6 @@ package HW2;
  * @create: 2019-10-11 00:08
  */
 
-import java.util.Deque;
-import java.util.LinkedList;
 import java.util.Scanner;
 
 public class Main1 {
