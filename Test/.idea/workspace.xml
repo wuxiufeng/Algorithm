@@ -2,28 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c091a4d-dc22-42fb-8fcb-d67aea759f99" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/HW2/Main1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HW2/Main2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HW2/Main3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HW2/Test/Main21.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HW2/Test/Main3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/HW1/Main11.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/HW1/Main12$Action.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/HW1/Main12.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/HW1/Main13.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/HW1/Main14.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/HW1/Main15.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/HW1/Main16.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/HW1/Main17.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/HW1/Main172.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/HW1/Main18.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/HW1/Main182.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/HW1/Main183.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/HW1/Main19$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/HW1/Main19$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/HW1/Main19.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/HW1/Main7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test/HW1/Main7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/HW1/Main_10$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/HW1/Main_10$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/HW1/Main_10.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HW1/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW1/Main2" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -76,13 +59,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main1">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+  <component name="RunManager" selected="Application.Main3 (1)">
+    <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HW2.Main1" />
       <module name="Test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.*" />
+          <option name="PATTERN" value="HW2.Test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,8 +73,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HW2.Main1" />
+    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HW2.Main2" />
+      <module name="Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HW2.Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main21" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HW2.Test.Main21" />
+      <module name="Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HW2.Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main3 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HW2.Test.Main3" />
+      <module name="Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HW2.Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HW2.Main3" />
       <module name="Test" />
       <extension name="coverage">
         <pattern>
@@ -103,59 +125,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main183" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HW1.Main183" />
-      <module name="Test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="HW1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main19" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HW1.Main19" />
-      <module name="Test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="HW1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HW1.Main7" />
-      <module name="Test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="HW1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.Main183" />
-      <item itemvalue="Application.Main19" />
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Main7" />
       <item itemvalue="Application.Main1" />
+      <item itemvalue="Application.Main2" />
+      <item itemvalue="Application.Main21" />
+      <item itemvalue="Application.Main3" />
+      <item itemvalue="Application.Main3 (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main3 (1)" />
+        <item itemvalue="Application.Main3" />
+        <item itemvalue="Application.Main21" />
+        <item itemvalue="Application.Main2" />
         <item itemvalue="Application.Main1" />
-        <item itemvalue="Application.Main19" />
-        <item itemvalue="Application.Main7" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main183" />
       </list>
     </recent_temporary>
   </component>
@@ -200,7 +183,8 @@
       <workItem from="1571193278862" duration="1073000" />
       <workItem from="1571230449752" duration="1424000" />
       <workItem from="1571234127430" duration="619000" />
-      <workItem from="1571274169941" duration="732000" />
+      <workItem from="1571274169941" duration="4375000" />
+      <workItem from="1571279290447" duration="262000" />
     </task>
     <servers />
   </component>
