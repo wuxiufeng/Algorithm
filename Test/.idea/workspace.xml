@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c091a4d-dc22-42fb-8fcb-d67aea759f99" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/HW2/Main2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HW2/Main3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HW2/Test/Main21.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HW2/Test/Main3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test/HW2/Main3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test/HW2/Main3.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +32,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/HW1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/HW2" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
@@ -59,7 +56,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main3 (1)">
+  <component name="RunManager" selected="Application.Main2">
     <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HW2.Main1" />
       <module name="Test" />
@@ -134,10 +131,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main2" />
         <item itemvalue="Application.Main3 (1)" />
         <item itemvalue="Application.Main3" />
         <item itemvalue="Application.Main21" />
-        <item itemvalue="Application.Main2" />
         <item itemvalue="Application.Main1" />
       </list>
     </recent_temporary>
@@ -184,7 +181,7 @@
       <workItem from="1571230449752" duration="1424000" />
       <workItem from="1571234127430" duration="619000" />
       <workItem from="1571274169941" duration="4375000" />
-      <workItem from="1571279290447" duration="262000" />
+      <workItem from="1571279290447" duration="1262000" />
     </task>
     <servers />
   </component>
