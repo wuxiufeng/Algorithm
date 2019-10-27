@@ -1,6 +1,14 @@
 package CT2B;
 
 import java.io.*;
+/**
+ * @program: Test
+ * @ClassName Main2.java
+ * @description: TODO
+ * @author: Mr. jun
+ * @version: 1.0.0
+ * @create: 2019-10-17 19:12
+ */
 public class Main2
 {
     public static void main (String[] args) throws IOException
