@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c091a4d-dc22-42fb-8fcb-d67aea759f99" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/HW2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HW2/Main1.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HW2/Main2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HW2/Main3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HW2/Main4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HW2/Main5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HW2/Main6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HW2/Main7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HW2/Main8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HW2/Main1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/CT2B/Main2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test/CT2B/Main2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CT2B/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CT2B/Main2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test/HW2/Main1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test/HW2/Main1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test/HW2/Main7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test/HW2/Main7.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +36,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/HW2" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -67,7 +59,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main7">
+  <component name="RunManager" selected="Application.Main1">
     <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HW2.Main1" />
       <module name="Test" />
@@ -142,8 +134,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main7" />
         <item itemvalue="Application.Main1" />
+        <item itemvalue="Application.Main7" />
         <item itemvalue="Application.Main6" />
         <item itemvalue="Application.Main5" />
         <item itemvalue="Application.Main4 (2)" />
@@ -200,6 +192,9 @@
       <workItem from="1571304939981" duration="8360000" />
       <workItem from="1572060207311" duration="2863000" />
       <workItem from="1572148030434" duration="9844000" />
+      <workItem from="1572167784951" duration="53000" />
+      <workItem from="1572247647660" duration="5187000" />
+      <workItem from="1572259236257" duration="3575000" />
     </task>
     <servers />
   </component>
