@@ -38,21 +38,34 @@ public class Main1 {
             for (int j = 1; j < dpArr[0].length; j++)
                 dpArr[i][j] = s1.charAt(i - 1) == s2.charAt(j - 1) ? (dpArr[i - 1][j - 1] + 1) : Math.max(dpArr[i][j - 1], dpArr[i - 1][j]);
     }
-
-    public static void GetAllResult(StringBuffer currStr, int currI, int currJ, Set<String> resultlist, int[][] dpArr, String s1, String s2) {
+    /**
+     * @title GetAllResult
+     * @description 
+     * @author Jun
+     * @param currStr
+     * @param currI
+     * @param currJ
+     * @param resultset
+     * @param dpArr
+     * @param s1
+     * @param s2
+     * @return void
+     * @throws
+     * @updateTime 2019/10/30 0:13
+     */
+    public static void GetAllResult(StringBuffer currStr, int currI, int currJ, Set<String> resultset, int[][] dpArr, String s1, String s2) {
         if (currI <= 0 || currJ <= 0)
-            resultlist.add(currStr.reverse().toString());
+            resultset.add(currStr.reverse().toString());
         else {
             if (s1.charAt(currI - 1) == s2.charAt(currJ - 1)) {
-                //currStr = s1.charAt(currI-1)+currStr;
-                GetAllResult(currStr.append(s1.charAt(currI - 1)), currI - 1, currJ - 1, resultlist, dpArr, s1, s2);
+                GetAllResult(currStr.append(s1.charAt(currI - 1)), currI - 1, currJ - 1, resultset, dpArr, s1, s2);
             } else if (dpArr[currI][currJ - 1] < dpArr[currI - 1][currJ]) {
-                GetAllResult(currStr, currI - 1, currJ, resultlist, dpArr, s1, s2);
+                GetAllResult(currStr, currI - 1, currJ, resultset, dpArr, s1, s2);
             } else if (dpArr[currI][currJ - 1] > dpArr[currI - 1][currJ]) {
-                GetAllResult(currStr, currI, currJ - 1, resultlist, dpArr, s1, s2);
+                GetAllResult(currStr, currI, currJ - 1, resultset, dpArr, s1, s2);
             } else {
-                GetAllResult(new StringBuffer(currStr), currI - 1, currJ, resultlist, dpArr, s1, s2);
-                GetAllResult(new StringBuffer(currStr), currI, currJ - 1, resultlist, dpArr, s1, s2);
+                GetAllResult(new StringBuffer(currStr), currI - 1, currJ, resultset, dpArr, s1, s2);
+                GetAllResult(new StringBuffer(currStr), currI, currJ - 1, resultset, dpArr, s1, s2);
             }
         }
     }
