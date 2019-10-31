@@ -11,58 +11,42 @@ import java.util.Scanner;
  * @create: 2019-10-31 10:02
  */
 
-public class Main3 {
-    static char[] a = {'1', '2', '3', '4', '5', '$', '5', '4', '3', '2', '1'};
 
-    public static void main(String[] args) {
-        //code
+public class Main3 {
+    public static void main (String[] args) {
+        String[] unit = {"1","2","3","4","5","$","5","4","3","2","1"};
+
         Scanner sc = new Scanner(System.in);
         int t = sc.nextInt();
-        while (t-- > 0) {
 
-            long n = sc.nextLong();
+        while (t > 0) {
+            int query = sc.nextInt();
 
-            if (n == 0)
-                System.out.println();
-            else {
+            while (query > unit.length) {
+                double[] domainInfo = domainInfo(query);
+                double domainStart = ((domainInfo[0] - domainInfo[1]) / 2 ) +  domainInfo[1];
 
-                findOut(n);
-
+                if (query <= domainStart) {
+                    query = 6; //$
+                    break;
+                }
+                query -= domainStart;
             }
-
+            System.out.println(query > 0 ? unit[query - 1] : "");
+            t--;
         }
     }
 
-    public static void findOut(long n) {
+    public static double[] domainInfo(int query) {
+        double domainSize = 5;
+        double ith = 0;
 
-        if (n <= 11)
-            System.out.println(a[(int) (n - 1)]);
-        else {
-            int total = 5, last = -1;
-            int dc = 0;
-            while (total <= n) {
-
-                dc++;
-                last = total;
-                total = 2 * total + dc;
-
+        while(true) {
+            if (query <= domainSize) {
+                return new double[]{domainSize, ith};
             }
-            int rem = (int) (n - last);
-            if (rem == 0)
-                System.out.println(1);
-            else if (rem <= dc)
-                System.out.println('$');
-            else {
-
-                rem -= dc;
-                if (rem <= 11)
-                    System.out.println(a[rem - 1]);
-                else
-                    findOut(n - (last + dc));
-
-            }
+            ith++;
+            domainSize = (domainSize * 2) + ith;
         }
-
     }
-
 }

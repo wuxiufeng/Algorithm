@@ -31,4 +31,4 @@ T = int(input())
 
 for i in range(0, T):
     q = int(input())
-    print(GetChar(q)) 
+    print(GetChar(q))
