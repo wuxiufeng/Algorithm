@@ -2,12 +2,13 @@ package HW3;
 
 
 import java.util.Scanner;
+import java.util.Stack;
 
 public class Main {
 
     private char[] mVexs;       // 顶点集合
     private int[][] mMatrix;    // 邻接矩阵
-
+    private boolean[] mVisited;
     /*
      * 创建图(用已提供的矩阵)
      *
@@ -21,10 +22,16 @@ public class Main {
         int vlen = vexs.length;
         int elen = edges.length;
 
+
         // 初始化"顶点"
         mVexs = new char[vlen];
         for (int i = 0; i < mVexs.length; i++)
             mVexs[i] = vexs[i];
+
+        mVisited = new boolean[vlen];       // 顶点访问标记
+        // 初始化所有顶点都没有被访问
+        for (int i = 0; i < vlen; i++)
+            mVisited[i] = false;
 
         // 初始化"边"
         mMatrix = new int[vlen][vlen];
@@ -74,20 +81,13 @@ public class Main {
             }
             Main pG;
             pG = new Main(input2, edgeIn);
-            pG.DFS();     // 深度优先遍历
+            pG.DFSDepth();     // 深度优先遍历
 //            pG.BFS();     // 广度优先遍历
             --caseNum;
         }
     }
 
-    public static char[] StringToChaarr(String string) {
-        String[] inputS = string.split(" ");
-        char[] output = new char[inputS.length];
-        for (int j = 0; j < inputS.length; j++) {
-            output[j] = inputS[j].charAt(0);
-        }
-        return output;
-    }
+
 
     /*
      * 返回ch位置
@@ -115,6 +115,21 @@ public class Main {
     }
 
     /*
+     * 返回顶点v的第一个邻接顶点的索引，失败则返回-1
+     */
+    private int getVertex(int v) {
+
+        if (v < 0 || v > (mVexs.length - 1))
+            return -1;
+
+        for (int i = 0; i < mVexs.length; i++)
+            if (mMatrix[v][i] == 1&&mVisited[i]==false)
+                return i;
+
+        return -1;
+    }
+
+    /*
      * 返回顶点v相对于w的下一个邻接顶点的索引，失败则返回-1
      */
     private int nextVertex(int v, int w) {
@@ -127,6 +142,31 @@ public class Main {
                 return i;
 
         return -1;
+    }
+
+    /*
+     * 深度优先搜索遍历图求深度
+     */
+    private void DFSDepth() {
+        Stack<Integer> inStack = new Stack<Integer>();
+        int depthResult = 0;
+        boolean flag = true;
+        int currIndex = 0;
+        while (flag) {
+            inStack.push(currIndex);
+            mVisited[currIndex] = true;
+            depthResult = inStack.size() > depthResult ? inStack.size() : depthResult;
+            while (getVertex(currIndex) == -1) {
+                inStack.pop();
+                if(inStack.empty())
+                    break;
+                currIndex = inStack.peek();
+            }
+            if (inStack.empty())
+                break;
+            currIndex = getVertex(currIndex);
+        }
+        System.out.printf("%d\n",depthResult);
     }
 
     /*
@@ -152,8 +192,6 @@ public class Main {
         // 初始化所有顶点都没有被访问
         for (int i = 0; i < mVexs.length; i++)
             visited[i] = false;
-
-//        System.out.printf("DFS: ");
         for (int i = 0; i < mVexs.length; i++) {
             if (!visited[i])
                 DFS(i, visited);
@@ -193,5 +231,13 @@ public class Main {
             }
         }
         System.out.printf("\n");
+    }
+    public static char[] StringToChaarr(String string) {
+        String[] inputS = string.split(" ");
+        char[] output = new char[inputS.length];
+        for (int j = 0; j < inputS.length; j++) {
+            output[j] = inputS[j].charAt(0);
+        }
+        return output;
     }
 }
