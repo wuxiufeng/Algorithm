@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c091a4d-dc22-42fb-8fcb-d67aea759f99" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/CT3/Main5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Answer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HW3/Distribute.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HW3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HW3/Shell.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/CT3/Main3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test/CT3/Main3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CT3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CT3/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW1/Main3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW1/Main3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW1/Test/Main11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW1/Test/Main11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW2/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,13 +65,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main5">
-    <configuration name="Main1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CT3.Main1" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Distribute" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HW3.Distribute" />
       <module name="Test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CT3.*" />
+          <option name="PATTERN" value="HW3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CT3.Main2" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HW3.Main" />
       <module name="Test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CT3.*" />
+          <option name="PATTERN" value="HW3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main3 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CT3.Main3" />
+    <configuration name="Main2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Main2" />
       <module name="Test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CT3.*" />
+          <option name="PATTERN" value="com.company.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CT2.Main3" />
+    <configuration name="MatrixUDG" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HW3.MatrixUDG" />
       <module name="Test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CT2.*" />
+          <option name="PATTERN" value="HW3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CT3.Main5" />
+    <configuration name="Shell" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HW3.Shell" />
       <module name="Test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CT3.*" />
+          <option name="PATTERN" value="HW3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,19 +132,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main1 (1)" />
-      <item itemvalue="Application.Main3" />
-      <item itemvalue="Application.Main2" />
-      <item itemvalue="Application.Main3 (1)" />
-      <item itemvalue="Application.Main5" />
+      <item itemvalue="Application.Main2 (1)" />
+      <item itemvalue="Application.Shell" />
+      <item itemvalue="Application.Distribute" />
+      <item itemvalue="Application.MatrixUDG" />
+      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main5" />
-        <item itemvalue="Application.Main3 (1)" />
-        <item itemvalue="Application.Main2" />
-        <item itemvalue="Application.Main1 (1)" />
-        <item itemvalue="Application.Main3" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.MatrixUDG" />
+        <item itemvalue="Application.Distribute" />
+        <item itemvalue="Application.Shell" />
+        <item itemvalue="Application.Main2 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -198,7 +204,10 @@
       <workItem from="1572268697415" duration="1167000" />
       <workItem from="1572313460861" duration="475000" />
       <workItem from="1572365113995" duration="991000" />
-      <workItem from="1572483800658" duration="5213000" />
+      <workItem from="1572483800658" duration="6058000" />
+      <workItem from="1573104687259" duration="1625000" />
+      <workItem from="1574074398728" duration="5764000" />
+      <workItem from="1574091698939" duration="7681000" />
     </task>
     <servers />
   </component>

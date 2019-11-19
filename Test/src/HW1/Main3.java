@@ -12,7 +12,7 @@ import java.util.Scanner;
 
 /**
  * @program: Test
- * @ClassName Main.java
+ * @ClassName Main.java.java
  * @description: TODO
  * @author: Mr. jun
  * @version: 1.0.0
