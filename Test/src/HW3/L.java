@@ -107,20 +107,4 @@ public class L {
             Separation(beginX + boardLen, beginY + boardLen, beginX + boardLen, beginY + boardLen, boardLen);
         }
     }
-
-    public int getBoard(int lX, int lY) {
-        return board[lX][lY];
-    }
-
-    public void setBoard(int lX, int lY, int val) {
-        this.board[lX][lY] = val;
-    }
-
-    public int getCurrIndex() {
-        return currIndex;
-    }
-
-    public void setCurrIndex(int currIndex) {
-        this.currIndex = currIndex;
-    }
 }
