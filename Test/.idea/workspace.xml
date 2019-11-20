@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c091a4d-dc22-42fb-8fcb-d67aea759f99" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/HW3/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HW3/Element.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HW3/L.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Answer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HW3/Tolology.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW3/Tolology.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +60,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Tolology">
+  <component name="RunManager" selected="Application.L">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HW3.Application" />
+      <module name="Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HW3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Distribute" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HW3.Distribute" />
       <module name="Test" />
@@ -73,34 +87,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="L" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HW3.L" />
+      <module name="Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HW3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HW3.Main" />
-      <module name="Test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="HW3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MatrixUDG" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HW3.MatrixUDG" />
-      <module name="Test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="HW3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Shell" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HW3.Shell" />
       <module name="Test" />
       <extension name="coverage">
         <pattern>
@@ -126,19 +127,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Shell" />
       <item itemvalue="Application.Distribute" />
-      <item itemvalue="Application.MatrixUDG" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Tolology" />
+      <item itemvalue="Application.Application" />
+      <item itemvalue="Application.L" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.L" />
+        <item itemvalue="Application.Application" />
         <item itemvalue="Application.Tolology" />
         <item itemvalue="Application.Distribute" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.MatrixUDG" />
-        <item itemvalue="Application.Shell" />
       </list>
     </recent_temporary>
   </component>
@@ -205,7 +206,10 @@
       <workItem from="1574150529037" duration="3096000" />
       <workItem from="1574158855277" duration="7593000" />
       <workItem from="1574173165359" duration="6886000" />
-      <workItem from="1574214514881" duration="5913000" />
+      <workItem from="1574214514881" duration="6840000" />
+      <workItem from="1574233552606" duration="45000" />
+      <workItem from="1574233680823" duration="153000" />
+      <workItem from="1574250059772" duration="7111000" />
     </task>
     <servers />
   </component>
