@@ -2,7 +2,7 @@ package HW1;
 
 /**
  * @program: Test
- * @ClassName Main3.java
+ * @ClassName CT1.Main3.java
  * @description: TODO
  * @author: Mr. jun
  * @version: 1.0.0

@@ -1,4 +1,4 @@
-package com.company;
+package CT1;
 
 import java.util.*;
 

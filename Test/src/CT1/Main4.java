@@ -1,9 +1,9 @@
-package com.company;
+package CT1;
 
-public class QuickSort {
+public class Main4 {
     private static int count = 0;
     public static void main(String[] args) {
-        int[] arr = { 3,2,1};
+        int[] arr = { 4,3,2,1};
         sort(arr, 0, arr.length - 1);
         System.out.println(count);
     }
@@ -21,7 +21,7 @@ public class QuickSort {
                 arr[h] = arr[l];
                 arr[l] = temp;
                 //进行过一次替换后，没必要将替换后的两值再次比较，所以i++直接下一位与k对比
-                //l++;
+                l++;
                 count++;
             }
             // 从前往后比较
@@ -32,7 +32,7 @@ public class QuickSort {
                 int temp = arr[h];
                 arr[h] = arr[l];
                 arr[l] = temp;
-                //h--;
+                h--;
                 count++;
             }
             // 此时第一次循环比较结束，关键值的位置已经确定了。左边的值都比关键值小，右边的值都比关键值大，但是两边的顺序还有可能是不一样的，进行下面的递归调用
@@ -57,5 +57,4 @@ public class QuickSort {
             }
         }
     }
-
 }

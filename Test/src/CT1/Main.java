@@ -1,6 +1,8 @@
-package com.company;
+package CT1;
 
 //import java.util.Scanner;
+
+import CT1.Solution;
 
 import java.util.Arrays;
 

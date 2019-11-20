@@ -1,4 +1,4 @@
-package com.company;
+package CT1;
 
 /**
  * [51] 数组中的逆序对

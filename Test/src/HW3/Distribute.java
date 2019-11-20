@@ -19,13 +19,9 @@ public class Distribute {
             MIN = Integer.MAX_VALUE;
             int n = Integer.parseInt(cin.nextLine().trim());
             int[][] cost = new int[n][n];
-            for (int i = 0; i < n; i++)
-                for (int j = 0; j < n; j++)
-                    cost[i][j] = -1;
             String[] input = cin.nextLine().trim().split(",");
-            int[] tocost = null;
             for (int i = 0; i < input.length; i++) {
-                tocost = StringToIntarr(input[i]);
+                int[] tocost = StringToIntarr(input[i]);
                 cost[tocost[0]-1][tocost[1]-1] = tocost[2];
             }
             int[] pemutationArr = new int[n];
@@ -42,7 +38,7 @@ public class Distribute {
                     stringResult[i] += (" "+String.valueOf(it[j]));
                 }
             }
-            Arrays.sort(stringResult);
+            Arrays.sort(stringResult, (o1, o2) -> 0);
             System.out.printf("%s",stringResult[stringResult.length-1]);
             for(int i=stringResult.length-2;i>=0;i--){
                 System.out.printf(",%s",stringResult[i]);
