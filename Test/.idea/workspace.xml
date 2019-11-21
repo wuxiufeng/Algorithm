@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c091a4d-dc22-42fb-8fcb-d67aea759f99" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/CT4/FindMax.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CT4/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CT4/Reserve.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CT4/TrueFindMax.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HW3/KdTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/HW3/L.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test/HW3/L.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test/CT4/Order.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test/CT4/Reserve.py" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test/CT4/Reserve.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test/CT4/TrueFindMax.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test/CT4/TrueFindMax.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CT4/TrueFindMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CT4/TrueFindMax.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Class" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -214,7 +212,7 @@
       <workItem from="1574233680823" duration="153000" />
       <workItem from="1574250059772" duration="7111000" />
       <workItem from="1574260058572" duration="2009000" />
-      <workItem from="1574297086435" duration="5256000" />
+      <workItem from="1574297086435" duration="6668000" />
     </task>
     <servers />
   </component>

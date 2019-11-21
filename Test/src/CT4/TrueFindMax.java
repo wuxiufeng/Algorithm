@@ -1,5 +1,3 @@
-package CT4;
-
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -11,7 +9,7 @@ import java.util.Scanner;
  * @version: 1.0.0
  * @create: 2019-11-21 09:46
  */
-class TrueFindMax {
+class Main {
 
     public static double maximumSum(double[] arr) {
         int N=arr.length;
