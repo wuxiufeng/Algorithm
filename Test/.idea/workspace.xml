@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c091a4d-dc22-42fb-8fcb-d67aea759f99" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CT4/Reserve.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/CT4/FindMax.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/CT4/TrueFindMax.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CT4/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CT4/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CT4/TrueFindMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CT4/TrueFindMax.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test/Main.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,20 +59,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LessMoney">
-    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HW3.Application" />
-      <module name="Test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="HW3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Reserve">
     <configuration name="FindMax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CT4.FindMax" />
       <module name="Test" />
@@ -110,6 +93,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Reserve" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CT4.Reserve" />
+      <module name="Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CT4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TrueFindMax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CT4.TrueFindMax" />
       <module name="Test" />
@@ -124,19 +120,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Application" />
       <item itemvalue="Application.L" />
       <item itemvalue="Application.FindMax" />
       <item itemvalue="Application.TrueFindMax" />
       <item itemvalue="Application.LessMoney" />
+      <item itemvalue="Application.Reserve" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Reserve" />
         <item itemvalue="Application.LessMoney" />
         <item itemvalue="Application.TrueFindMax" />
         <item itemvalue="Application.FindMax" />
         <item itemvalue="Application.L" />
-        <item itemvalue="Application.Application" />
       </list>
     </recent_temporary>
   </component>
@@ -208,7 +204,7 @@
       <workItem from="1574233680823" duration="153000" />
       <workItem from="1574250059772" duration="7111000" />
       <workItem from="1574260058572" duration="2009000" />
-      <workItem from="1574297086435" duration="9454000" />
+      <workItem from="1574297086435" duration="11479000" />
     </task>
     <servers />
   </component>
