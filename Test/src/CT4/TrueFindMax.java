@@ -9,7 +9,7 @@ import java.util.Scanner;
  * @version: 1.0.0
  * @create: 2019-11-21 09:46
  */
-class Main {
+class Main1 {
 
     public static double maximumSum(double[] arr) {
         int N=arr.length;

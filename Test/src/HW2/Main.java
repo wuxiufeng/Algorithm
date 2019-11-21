@@ -2,7 +2,7 @@ package HW2;
 
 /**
  * @program: Test
- * @ClassName Main.java.java
+ * @ClassName CT4.LessMoney.java.java
  * @description: TODO
  * @author: Mr. jun
  * @version: 1.0.0
